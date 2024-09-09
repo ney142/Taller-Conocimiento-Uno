@@ -18,8 +18,8 @@ for empleado in salarios:
 """Segunda forma de realizar el ejercicio definiendo como dato general el salario base y la comision para todos los empleados"""
 def calcular_salarios_generales():
     empleados = 1897  # Número total de empleados
-    salario_base = 2000  # Salario base fijo para todos los empleados
-    comisiones = 300  # Comisiones fijas para todos los empleados
+    salario_base = 1300000  # Salario base fijo para todos los empleados
+    comisiones = 150000  # Comisiones fijas para todos los empleados
     listado_empleados = []
 
     for i in range(1, empleados + 1):  # Para cada empleado
